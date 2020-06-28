@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+body {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    max-width: 1900px;
+    min-height: 100vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    background-image: url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
