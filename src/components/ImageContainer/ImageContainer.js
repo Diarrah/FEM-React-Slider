@@ -27,12 +27,12 @@ const ImageContainer = ({
                 alt={`${name} portrait`}
             />
             <div className="pagination">
-                <button className='prev' onClick={prev}>
+                <button className='prev' onClick={prev} aria-label="Button for previous slide">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
                         <path fill="none" stroke="#8585AC" stroke-width="2" d="M11 1L3 9l8 8"/>
                     </svg>
                 </button>
-                <button className='next' onClick={next}>
+                <button className='next' onClick={next} aria-label="Button for next slide">
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
                         <path fill="none" stroke="#8585AC" stroke-width="2" d="M2 1l8 8-8 8"/>
                     </svg>
